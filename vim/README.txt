@@ -1,0 +1,1 @@
+Mac: Edit /usr/share/vim/vimrc

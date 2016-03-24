@@ -1,0 +1,29 @@
+* Install Homebrew - http://brew.sh
+
+* Import terminal color theme or download from:
+https://github.com/tomislav/osx-terminal.app-colors-solarized
+
+* Install silver search
+brew install ag
+
+* Install neovim - https://github.com/neovim/homebrew-neovim/blob/master/README.md
+Neovim trick: https://medium.com/@garoth/neovim-terminal-usecases-tricks-8961e5ac19b9
+
+* Install Vim-plug
+https://github.com/junegunn/vim-plug
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+* Symlink bash_profile to ~/.bash_profile
+
+* Create neovim config folder and put vimrc into config
+  Run "mkdir -p ~/.config/nvim"
+  Copy init.vim file to home folder
+  Run "cp init.vim ~/.config/nvim/init.vim"
+
+* Run :PlugInstall
+
+* Add following alias to bash_profile
+  alias l='ls -lGpFh'
+  alias grep='grep --color=auto'
+  alias du='du -sh'
