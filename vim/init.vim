@@ -43,6 +43,8 @@ set shiftwidth=2
 set expandtab
 set tabstop=2
 
+set completeopt-=preview
+
 colorscheme solarized
 set background=dark
 let g:lightline={'colorscheme': 'solarized_dark'}
