@@ -30,6 +30,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
+
+Plug 'ervandew/supertab'
 call plug#end()
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
@@ -44,6 +46,7 @@ set expandtab
 set tabstop=2
 
 set completeopt-=preview
+let g:SuperTabDefaultCompletionType = 'context'
 
 colorscheme solarized
 set background=dark
