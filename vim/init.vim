@@ -62,5 +62,7 @@ nnoremap <Leader>f :Unite -no-split -hide-source-names -start-insert file_rec/as
 nnoremap <Leader>u :UndotreeToggle<CR>
 nnoremap <Leader>g :tab split README.md \| Gstatus<CR>
 nnoremap <Leader><CR> :execute "!rspec %:" . line(".")<CR>
+nnoremap <Leader>j :Java %<CR>
+
 
 command! -nargs=* Ag Grepper -noprompt -tool ag -grepprg ag --nogroup --nocolor --column <args>
