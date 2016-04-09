@@ -27,6 +27,6 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 
 * Install Eclipse
 
-* Install Eclim
+* Download and install Eclim. Follow the instruction on Eclim webpage.
 Eclipse folder: /Applications/eclipse/jee_mars/Eclipse.app/Contents/Eclipse/
 Vim folder: ~/.config/nvim/
