@@ -24,3 +24,9 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
   alias l='ls -lGpFh'
   alias grep='grep --color=auto'
   alias du='du -sh'
+
+* Install Eclipse
+
+* Install Eclim
+Eclipse folder: /Applications/eclipse/jee_mars/Eclipse.app/Contents/Eclipse/
+Vim folder: ~/.config/nvim/
