@@ -14,13 +14,13 @@ https://github.com/junegunn/vim-plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-In neovim, run :PlugInstall to install plugins
+* Symlink gitconfig: sudo ln -s "${PWD}/git/gitconfig" /etc/gitconfig
 
 * Symlink bash_profile: ln -s "${PWD}/bash_profile" ~/.bash_profile
 
 * Symlink init.vim: ln -s "${PWD}/vim/init.vim" ~/.config/nvim/init.vim
 
-* Run :PlugInstall
+* In neovim, run :PlugInstall to install plugins
 
 * Add following alias to bash_profile
   alias l='ls -lGpFh'
