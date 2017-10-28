@@ -36,6 +36,8 @@ call plug#end()
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
+set clipboard=unnamed
+
 set nowrap
 set number
 set numberwidth=5
