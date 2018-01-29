@@ -1,4 +1,5 @@
 export EDITOR=nvim
+export PS1="🔥 \u@ \w $ "
 alias v=nvim
 alias l='ls -lGpFh'
 alias grep='grep --color=auto'
