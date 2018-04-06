@@ -65,7 +65,8 @@ nnoremap <Leader>u :UndotreeToggle<CR>
 nnoremap <Leader>g :tab split README.md \| Gstatus<CR>
 nnoremap <Leader><CR> :execute "!rspec %:" . line(".")<CR>
 nnoremap <Leader>j :Java %<CR>
-nnoremap <Leader>i :JavaImport<CR>
+nnoremap <Leader>i :JavaImportOrganize<CR>
+nnoremap <Leader>s :JavaSearch<CR>
 let g:EclimJavascriptValidate=0
 
 command! -nargs=* Ag Grepper -noprompt -tool ag -grepprg ag --nogroup --nocolor --column <args>
