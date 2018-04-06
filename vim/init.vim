@@ -70,3 +70,8 @@ nnoremap <Leader>s :JavaSearch<CR>
 let g:EclimJavascriptValidate=0
 
 command! -nargs=* Ag Grepper -noprompt -tool ag -grepprg ag --nogroup --nocolor --column <args>
+
+"Change vim treeview style
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_winsize = 25
