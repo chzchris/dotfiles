@@ -94,3 +94,8 @@ function! ToggleNetrw()
     endif
 endfunction
 nnoremap <Leader>= :call ToggleNetrw()<CR>
+
+"Open terminal in new tab
+nnoremap <leader>t :belowright split<CR>:terminal<CR>source $HOME/.bash_profile<CR>c<CR>
+"Open terminal in current tab
+nnoremap <leader>z :enew<CR>:terminal<CR>source $HOME/.bash_profile<CR>c<CR>
