@@ -99,3 +99,5 @@ nnoremap <Leader>= :call ToggleNetrw()<CR>
 nnoremap <leader>t :belowright split<CR>:terminal<CR>source $HOME/.bash_profile<CR>c<CR>
 "Open terminal in current tab
 nnoremap <leader>z :enew<CR>:terminal<CR>source $HOME/.bash_profile<CR>c<CR>
+"Map ESC for terminal mode exit
+:tnoremap <Esc> <C-\><C-n>
