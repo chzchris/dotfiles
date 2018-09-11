@@ -21,6 +21,8 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
 
 * Symlink bash_profile: ln -s "${PWD}/bash_profile" ~/.bash_profile
 
+* Copy bash_profile to bashrc for terminal mode in neovim: cp ~/.bash_profile ~/.bashrc
+
 * Symlink init.vim: ln -s "${PWD}/vim/init.vim" ~/.config/nvim/init.vim
 
 * In neovim, run :PlugInstall to install plugins

@@ -46,6 +46,7 @@ set undofile
 set shiftwidth=2
 set expandtab
 set tabstop=2
+set mouse=a
 
 set completeopt-=preview
 let g:SuperTabDefaultCompletionType = 'context'
@@ -96,8 +97,8 @@ endfunction
 nnoremap <Leader>= :call ToggleNetrw()<CR>
 
 "Open terminal in new tab
-nnoremap <leader>t :belowright split<CR>:terminal<CR>source $HOME/.bash_profile<CR>c<CR>
+nnoremap <leader>t :belowright split<CR>:terminal<CR>
 "Open terminal in current tab
-nnoremap <leader>z :enew<CR>:terminal<CR>source $HOME/.bash_profile<CR>c<CR>
+nnoremap <leader>z :enew<CR>:terminal<CR>
 "Map ESC for terminal mode exit
 :tnoremap <Esc> <C-\><C-n>
