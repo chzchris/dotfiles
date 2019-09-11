@@ -32,6 +32,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
 
 Plug 'ervandew/supertab'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
@@ -102,3 +103,5 @@ nnoremap <leader>t :belowright split<CR>:terminal<CR>
 nnoremap <leader>z :enew<CR>:terminal<CR>
 "Map ESC for terminal mode exit
 :tnoremap <Esc> <C-\><C-n>
+
+let g:ale_linters = {'python': ['flake8']}
